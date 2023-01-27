@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  display: block;
+  text-decoration: none;
+}
+
+.center {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.presidents {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
